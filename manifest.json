@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Brave extension",
+  "description": "To use brave search engine",
+  "developer_name": "Pegoku",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "keyword",
+      "type": "keyword",
+      "name": "brave",
+      "description": "brave extension",
+      "default_value": "br"
+    }
+  ]
+}
